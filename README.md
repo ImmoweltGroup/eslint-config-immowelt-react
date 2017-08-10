@@ -10,7 +10,7 @@ This package servers as the basis for the JavaScript standards of the Immowelt G
 It sets a bunch of rules and warnings for best practices on how to write a maintainable JavaScript code base, as well as hints on how to write a good performing React application.
 
 ## Usage
-If you want to use the  `@immowelt/eslint-config-immowelt-react`, you can install it by executing:
+If you want to use the `@immowelt/eslint-config-immowelt-react` config, you can install it by executing:
 ```bash
 npm i -D @immowelt/eslint-config-immowelt-react
 ```
