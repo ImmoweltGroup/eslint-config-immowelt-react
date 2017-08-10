@@ -1,6 +1,6 @@
 {
   "name": "@immowelt/eslint-config-immowelt-react",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": false,
   "author": "Immonet dev team <aegaeon@immonet.de> (https://immonet.de)",
   "license": "UNLICENSED",
@@ -11,7 +11,8 @@
     "lint": "eslint src",
     "jest": "jest",
     "jest:watch": "npm run jest -- --watch",
-    "jest:coverage": "npm run jest -- --coverage"
+    "jest:coverage": "npm run jest -- --coverage",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "babel-eslint": "7.2.3",
@@ -25,12 +26,19 @@
     "eslint-plugin-react": "^7.1.0"
   },
   "devDependencies": {
+    "@inkdpixels/commit-analyzer": "^1.0.0",
+    "@inkdpixels/release-notes-generator": "^1.0.0",
     "babel-jest": "20.0.3",
     "eslint": "4.4.1",
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "semantic-release": "^6.3.6"
   },
   "peerDependencies": {
     "eslint": "4.4.1"
+  },
+  "release": {
+    "analyzeCommits": "@inkdpixels/commit-analyzer",
+    "generateNotes": "@inkdpixels/release-notes-generator"
   },
   "browserslist": [
     "last 1 versions"
@@ -67,5 +75,9 @@
     "immowelt",
     "config",
     "immonet"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImmoweltHH/eslint-config-immowelt-react.git"
+  }
 }
