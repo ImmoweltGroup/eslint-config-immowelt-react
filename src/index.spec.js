@@ -1,4 +1,4 @@
-const linter = require('eslint').linter;
+const {linter} = require('eslint');
 const config = require('./index.js');
 
 function runEslint(str) {
