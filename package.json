@@ -1,0 +1,63 @@
+{
+  "name": "@immowelt/eslint-config-immowelt-react",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Immonet dev team <aegaeon@immonet.de> (https://immonet.de)",
+  "license": "UNLICENSED",
+  "description": "JavaScript Standard Style for Immowelt React projects - ESLint Shareable Config",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run lint && npm run jest:coverage",
+    "lint": "eslint src",
+    "jest": "jest",
+    "jest:watch": "npm run jest -- --watch",
+    "jest:coverage": "npm run jest -- --coverage"
+  },
+  "dependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint-config-xo": "^0.18.2",
+    "eslint-config-xo-react": "^0.13.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-compat": "^1.0.4",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "eslint": "4.4.1",
+    "jest": "^20.0.4"
+  },
+  "peerDependencies": {
+    "eslint": "4.4.1"
+  },
+  "browserslist": [
+    "last 1 versions"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.js"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/?(*.)spec.js"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "keywords": [
+    "eslint",
+    "immowelt",
+    "config",
+    "immonet"
+  ]
+}
