@@ -31,7 +31,7 @@
     "babel-jest": "20.0.3",
     "eslint": "4.4.1",
     "jest": "^20.0.4",
-    "semantic-release": "^6.3.6"
+    "semantic-release": "^7.0.1"
   },
   "peerDependencies": {
     "eslint": "4.4.1"
