@@ -21,7 +21,8 @@ module.exports = {
 		jest: true
 	},
 	globals: {
-		analytics: true
+		analytics: true,
+    	Generator: true
 	},
 	rules: {
 		'compat/compat': 2,
