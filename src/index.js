@@ -5,8 +5,7 @@ module.exports = {
 		'xo-react',
 		'plugin:jsx-a11y/recommended',
 		'plugin:promise/recommended',
-		'plugin:react/recommended',
-		'plugin:import/errors'
+		'plugin:react/recommended'
 	],
 	plugins: [
 		'compat',
@@ -22,7 +21,7 @@ module.exports = {
 	},
 	globals: {
 		analytics: true,
-    	Generator: true
+		Generator: true
 	},
 	rules: {
 		'compat/compat': 2,

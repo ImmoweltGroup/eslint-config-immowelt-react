@@ -20,7 +20,6 @@
     "eslint-config-xo-react": "^0.13.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-compat": "^1.0.4",
-    "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "6.0.2",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0"
