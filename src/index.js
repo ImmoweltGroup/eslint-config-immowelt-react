@@ -21,7 +21,8 @@ module.exports = {
 	},
 	globals: {
 		analytics: true,
-		Generator: true
+		Generator: true,
+		Iterator: true
 	},
 	rules: {
 		'compat/compat': 2,
