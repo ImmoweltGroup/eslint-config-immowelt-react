@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "private": false,
   "author": "Immonet dev team <aegaeon@immonet.de> (https://immonet.de)",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "description": "JavaScript Standard Style for Immowelt React projects - ESLint Shareable Config",
   "main": "src/index.js",
   "scripts": {
@@ -25,6 +25,7 @@
     "eslint-plugin-react": "^7.1.0"
   },
   "devDependencies": {
+    "@immowelt/jest-preset-node": "^1.0.0",
     "@inkdpixels/commit-analyzer": "^1.0.0",
     "@inkdpixels/release-notes-generator": "^1.0.0",
     "babel-jest": "20.0.3",
@@ -47,31 +48,7 @@
     "last 1 versions"
   ],
   "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.js"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 70,
-        "functions": 70,
-        "lines": 70,
-        "statements": 70
-      }
-    },
-    "testMatch": [
-      "<rootDir>/src/**/?(*.)spec.js"
-    ],
-    "testEnvironment": "node",
-    "testURL": "http://localhost",
-    "transform": {
-      "^.+\\.js$": "babel-jest"
-    },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.js$"
-    ],
-    "moduleFileExtensions": [
-      "js"
-    ]
+    "preset": "@immowelt/jest-preset-node"
   },
   "keywords": [
     "eslint",
