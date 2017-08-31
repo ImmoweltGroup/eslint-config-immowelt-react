@@ -24,6 +24,9 @@ module.exports = {
 		Generator: true,
 		Iterator: true
 	},
+	settings: {
+        polyfills: ['fetch']
+    },
 	rules: {
 		'compat/compat': 2,
 		'react/jsx-boolean-value': 0,
