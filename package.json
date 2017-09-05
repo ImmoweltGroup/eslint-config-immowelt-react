@@ -58,6 +58,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ImmoweltHH/eslint-config-immowelt-react.git"
+    "url": "https://github.com/ImmoweltGroup/eslint-config-immowelt-react.git"
   }
 }

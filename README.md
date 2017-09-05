@@ -1,7 +1,7 @@
 # @immowelt/eslint-config-immowelt-react
 
 [![Powered by Immowelt](https://img.shields.io/badge/powered%20by-immowelt-yellow.svg?colorB=ffb200)](https://stackshare.io/immowelt-group/)
-[![Greenkeeper badge](https://badges.greenkeeper.io/ImmoweltHH/eslint-config-immowelt-react.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ImmoweltGroup/eslint-config-immowelt-react.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/ImmoweltGroup/eslint-config-immowelt-react.svg?branch=master)](https://travis-ci.org/ImmoweltGroup/eslint-config-immowelt-react)
 [![Dependency Status](https://david-dm.org/ImmoweltGroup/eslint-config-immowelt-react.svg)](https://david-dm.org/ImmoweltGroup/eslint-config-immowelt-react)
 [![devDependency Status](https://david-dm.org/ImmoweltGroup/eslint-config-immowelt-react/dev-status.svg)](https://david-dm.org/ImmoweltGroup/eslint-config-immowelt-react#info=devDependencies&view=table)
