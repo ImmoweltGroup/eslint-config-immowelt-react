@@ -9,28 +9,44 @@
   "scripts": {
     "test": "npm run lint && npm run jest:coverage",
     "lint": "eslint src",
+    "prettier": "prettier --write src/**/*.js",
     "jest": "jest",
     "jest:watch": "npm run jest -- --watch",
     "jest:coverage": "npm run jest -- --coverage",
     "semantic-release": "semantic-release pre && npm publish --access=public && semantic-release post"
   },
+  "lint-staged": {
+    "src/**/*.{js,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "dependencies": {
     "babel-eslint": "7.2.3",
-    "eslint-config-xo": "^0.18.2",
-    "eslint-config-xo-react": "^0.13.0",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-compat": "^1.0.4",
+    "eslint-plugin-flowtype": "^2.35.1",
+    "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^3.0.1"
   },
   "devDependencies": {
     "@immowelt/jest-preset-node": "^1.0.0",
+    "@immowelt/styleguide-javascript": "^1.0.5",
     "@inkdpixels/commit-analyzer": "^1.0.0",
     "@inkdpixels/release-notes-generator": "^1.0.0",
     "babel-jest": "20.0.3",
     "eslint": "4.4.1",
+    "husky": "^0.14.3",
     "jest": "^20.0.4",
+    "lint-staged": "^4.1.1",
+    "prettier": "^1.6.1",
     "semantic-release": "^7.0.1"
   },
   "peerDependencies": {
