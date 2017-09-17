@@ -3,35 +3,52 @@
   "version": "0.0.0-development",
   "private": false,
   "author": "Immonet dev team <aegaeon@immonet.de> (https://immonet.de)",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "description": "JavaScript Standard Style for Immowelt React projects - ESLint Shareable Config",
   "main": "src/index.js",
   "scripts": {
     "test": "npm run lint && npm run jest:coverage",
     "lint": "eslint src",
+    "prettier": "prettier --write src/**/*.js",
     "jest": "jest",
     "jest:watch": "npm run jest -- --watch",
     "jest:coverage": "npm run jest -- --coverage",
-    "semantic-release": "semantic-release pre && npm publish --access=public && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish --access=public && semantic-release post",
+    "precommit": "lint-staged && npm test"
+  },
+  "lint-staged": {
+    "src/**/*.{js,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "dependencies": {
-    "babel-eslint": "7.2.3",
-    "eslint-config-xo": "^0.18.2",
-    "eslint-config-xo-react": "^0.13.0",
+    "babel-eslint": "8.0.0",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-compat": "^1.0.4",
-    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-flowtype": "^2.35.1",
+    "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^3.0.1"
   },
   "devDependencies": {
+    "@immowelt/jest-preset-node": "^1.0.0",
+    "@immowelt/styleguide-javascript": "^1.0.5",
     "@inkdpixels/commit-analyzer": "^1.0.0",
     "@inkdpixels/release-notes-generator": "^1.0.0",
-    "babel-jest": "20.0.3",
     "eslint": "4.5.0",
-    "jest": "^20.0.4",
-    "semantic-release": "^7.0.1"
+    "babel-jest": "21.0.2",
+    "husky": "^0.14.3",
+    "jest": "^21.0.2",
+    "lint-staged": "^4.1.1",
+    "prettier": "^1.6.1",
+    "semantic-release": "^8.0.0"
   },
   "peerDependencies": {
     "eslint": "4.4.1"
@@ -48,31 +65,7 @@
     "last 1 versions"
   ],
   "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.js"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 70,
-        "functions": 70,
-        "lines": 70,
-        "statements": 70
-      }
-    },
-    "testMatch": [
-      "<rootDir>/src/**/?(*.)spec.js"
-    ],
-    "testEnvironment": "node",
-    "testURL": "http://localhost",
-    "transform": {
-      "^.+\\.js$": "babel-jest"
-    },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.js$"
-    ],
-    "moduleFileExtensions": [
-      "js"
-    ]
+    "preset": "@immowelt/jest-preset-node"
   },
   "keywords": [
     "eslint",
@@ -82,6 +75,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ImmoweltHH/eslint-config-immowelt-react.git"
+    "url": "https://github.com/ImmoweltGroup/eslint-config-immowelt-react.git"
   }
 }
