@@ -29,6 +29,7 @@ module.exports = {
     'import/first': 0,
     'compat/compat': 2,
     'react/jsx-boolean-value': 0,
+    'react/prop-types': 0,
     'react/require-default-props': 0,
     'react/forbid-component-props': 0,
     'promise/avoid-new': 0
