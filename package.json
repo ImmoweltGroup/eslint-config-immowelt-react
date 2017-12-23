@@ -38,7 +38,7 @@
     "eslint-plugin-standard": "^3.0.1"
   },
   "devDependencies": {
-    "@immowelt/jest-preset-node": "1.0.0",
+    "@immowelt/jest-preset-node": "1.0.1",
     "@immowelt/styleguide-javascript": "1.0.11",
     "@inkdpixels/commit-analyzer": "1.0.1",
     "@inkdpixels/release-notes-generator": "1.0.1",
