@@ -42,7 +42,7 @@
     "@immowelt/styleguide-javascript": "1.0.11",
     "@inkdpixels/commit-analyzer": "1.0.1",
     "@inkdpixels/release-notes-generator": "1.0.1",
-    "eslint": "4.16.0",
+    "eslint": "4.17.0",
     "babel-jest": "22.1.0",
     "husky": "0.14.3",
     "jest": "22.1.4",
@@ -51,7 +51,7 @@
     "semantic-release": "^8.0.0"
   },
   "peerDependencies": {
-    "eslint": "4.4.1"
+    "eslint": "4.17.0"
   },
   "engines": {
     "node": ">=8.2.0"
