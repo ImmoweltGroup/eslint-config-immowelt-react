@@ -7,17 +7,17 @@
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-This package servers as the basis for the JavaScript standards of the Immowelt GmbH.
-
-It sets a bunch of rules and warnings for best practices on how to write a maintainable JavaScript code base, as well as hints on how to write a good performing React application.
+This package provides [React](https://reactjs.org/) specific configurations used by [ImmoweltGroup](https://github.com/ImmoweltGroup).
 
 ## Usage
-If you want to use the `@immowelt/eslint-config-immowelt-react` config, you can install it by executing:
+
+Add it to your dependencies.
+
 ```bash
 npm i -D @immowelt/eslint-config-immowelt-react
 ```
 
-Then create a file named `.eslintrc` with following contents in the root folder of your project:
+Use it in your ESLint settings.
 
 ```json
 {
@@ -25,8 +25,12 @@ Then create a file named `.eslintrc` with following contents in the root folder 
 }
 ```
 
-## Contributing
-See the `CONTRIBUTING.md` file at the root of the repository.
+## Bundle
 
-## Licensing
+* [eslint-config-immowelt-es5](https://github.com/ImmoweltGroup/eslint-config-immowelt-es5)
+* [eslint-config-immowelt-es6](https://github.com/ImmoweltGroup/eslint-config-immowelt-es6)
+* [eslint-config-immowelt-react](https://github.com/ImmoweltGroup/eslint-config-immowelt-react)
+
+## License
+
 See the `LICENSE` file at the root of the repository.
