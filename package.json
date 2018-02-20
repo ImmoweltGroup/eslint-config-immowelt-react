@@ -26,7 +26,7 @@
     "babel-eslint": "8.2.2",
     "eslint-config-prettier": "^2.4.0",
     "eslint-config-standard": "^10.2.1",
-    "eslint-config-standard-react": "^5.0.0",
+    "eslint-config-standard-react": "^6.0.0",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-compat": "^2.0.1",
     "eslint-plugin-flowtype": "^2.35.1",
