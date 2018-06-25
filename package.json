@@ -47,7 +47,7 @@
     "husky": "0.14.3",
     "jest": "23.1.0",
     "lint-staged": "6.1.1",
-    "prettier": "1.13.5",
+    "prettier": "1.13.6",
     "semantic-release": "12.4.1"
   },
   "peerDependencies": {
