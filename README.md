@@ -25,11 +25,12 @@ Use it in your ESLint settings.
 }
 ```
 
-## Bundle
+## Linting Bundle
 
 * [eslint-config-immowelt-es5](https://github.com/ImmoweltGroup/eslint-config-immowelt-es5)
 * [eslint-config-immowelt-es6](https://github.com/ImmoweltGroup/eslint-config-immowelt-es6)
 * [eslint-config-immowelt-react](https://github.com/ImmoweltGroup/eslint-config-immowelt-react)
+* [stylelint-config-immowelt](https://github.com/ImmoweltGroup/stylelint-config-immowelt)
 
 ## License
 
