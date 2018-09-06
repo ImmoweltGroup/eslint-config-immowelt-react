@@ -11,6 +11,9 @@
     "prettier": "prettier --write src/**/*.js",
     "release": "semantic-release"
   },
+  "files": [
+    "src/index.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
