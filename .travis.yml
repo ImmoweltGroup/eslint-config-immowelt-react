@@ -11,7 +11,7 @@ install:
   - yarn
 script:
   - yarn lint
-  - yarn test
+  - yarn test --coverage
 after_success:
   - yarn release
 branches:
