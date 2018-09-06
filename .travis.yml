@@ -8,9 +8,12 @@ cache:
 notifications:
   email: false
 install:
-  - yarn install
+  - yarn
+script:
+  - yarn lint
+  - yarn test
 after_success:
-  - yarn run release
+  - yarn release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
