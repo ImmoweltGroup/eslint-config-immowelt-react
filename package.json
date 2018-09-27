@@ -47,7 +47,7 @@
     "eslint-config-standard-react": "7.0.2",
     "eslint-plugin-babel": "5.2.0",
     "eslint-plugin-compat": "2.5.1",
-    "eslint-plugin-flowtype": "2.50.1",
+    "eslint-plugin-flowtype": "2.50.2",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
     "eslint-plugin-node": "7.0.1",
