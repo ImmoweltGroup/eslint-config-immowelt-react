@@ -57,7 +57,7 @@
   },
   "devDependencies": {
     "@immowelt/jest-preset-node": "1.1.1",
-    "@semantic-release/github": "5.0.5",
+    "@semantic-release/github": "5.0.6",
     "@semantic-release/npm": "5.0.4",
     "babel-jest": "23.6.0",
     "eslint": "5.6.1",
