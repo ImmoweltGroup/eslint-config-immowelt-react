@@ -90,9 +90,9 @@
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@immowelt/browserslist-config/-/browserslist-config-1.0.6.tgz#6d1b28a9f0a092ac041f432ef04a9509abebb746"
 
-"@immowelt/eslint-config-immowelt-base@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@immowelt/eslint-config-immowelt-base/-/eslint-config-immowelt-base-1.0.1.tgz#33b500d18582e6ec25152e752e0a9a9d0970313c"
+"@immowelt/eslint-config-immowelt-base@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@immowelt/eslint-config-immowelt-base/-/eslint-config-immowelt-base-1.1.0.tgz#0bef0d2afe503bdd6453fa485f738602ec504816"
   dependencies:
     "@immowelt/browserslist-config" "^1.0.6"
     babel-eslint "^10.0.1"
